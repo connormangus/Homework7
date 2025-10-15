@@ -1,0 +1,33 @@
+/* Custom CSS for fonts, gradients, and minor styling */
+body {
+    background-color: darkgreen;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Gradient backgrounds for header and footer */
+header, footer {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+}
+
+/* Card text styling */
+.card-text {
+    font-size: 1rem;
+}
+
+/* Button hover effect */
+.btn-success:hover {
+    background-color: #155724;
+}
+
+/* Section spacing */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
